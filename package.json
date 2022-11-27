@@ -8,7 +8,7 @@
   "type": "module",
   "devDependencies": {
     "cypress": "^10.11.0",
-    "solid-start-netlify": "^0.1.0",
+    "solid-start-netlify": "^0.2.5",
     "typescript": "^4.8.3",
     "vite": "^3.1.0"
   },
@@ -16,7 +16,7 @@
     "@solidjs/meta": "^0.28.0",
     "@solidjs/router": "^0.5.0",
     "solid-js": "^1.5.7",
-    "solid-start": "^0.1.0",
+    "solid-start": "^0.2.5",
     "undici": "^5.10.0"
   },
   "engines": {
