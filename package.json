@@ -13,9 +13,12 @@
     "vite": "^3.1.0"
   },
   "dependencies": {
+    "@mdx-js/rollup": "^2.1.5",
     "@solidjs/meta": "^0.28.0",
     "@solidjs/router": "^0.5.0",
-    "solid-js": "^1.5.7",
+    "remark-gfm": "^3.0.1",
+    "solid-js": "^1.6.0",
+    "solid-mdx": "^0.0.6",
     "solid-start": "^0.2.5",
     "undici": "^5.10.0"
   },
