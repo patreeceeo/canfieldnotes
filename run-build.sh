@@ -1,11 +1,9 @@
 #!/bin/bash
-if [[ ! -d data ]]; then
-  git clone https://github.com/patreeceeo/canfieldnotes-data data
-fi
+rm -rf data
+git clone https://github.com/patreeceeo/canfieldnotes-data data --depth 1
 
 cd data
-npm install
-npm run build
+./run-build.sh
 cd ..
 
 solid-start build
