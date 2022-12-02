@@ -1,16 +1,20 @@
 import { createResource } from 'solid-js';
 // TODO figure out how to use this
 // import { createRouteData } from 'solid-js';
-import { getApi } from 'data/src/index';
+import { DocFile, getIndex } from 'data/src/index';
+
+export type IndexData = {
+  docs: DocFile[]
+}
 
 export const IndexDataProvider = () => {
   const [resource] = createResource(async () => {
-    const doc = await getApi('en')
-    return {doc};
+    const docs = await getIndex('en')
+    return {docs};
   });
   return {
-    get doc() {
-      return resource()?.doc.default;
+    get docs() {
+      return resource()?.docs
     },
     get loading() {
       return resource.loading;

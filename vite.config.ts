@@ -25,5 +25,5 @@ export default defineConfig({
       }),
       enforce: 'pre',
     },
-    solid({ adapter: netlify(), extensions: ['.md', '.mdx']})],
+    solid({ adapter: netlify(), extensions: ['.mdx']})],
 });

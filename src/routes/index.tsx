@@ -1,13 +1,13 @@
-import { IndexDataProvider } from "./Index.data";
+import { IndexData, IndexDataProvider } from "./Index.data";
 import "~/components/Index.css";
 import Header from "~/components/Header";
-import { Match, Switch } from "solid-js";
+import { For, Match, Switch } from "solid-js";
 import { useRouteData } from "solid-start";
 
 export const routeData = IndexDataProvider;
 
-export default function Index(props) {
-  const data = useRouteData<any>();
+export default function Index() {
+  const data = useRouteData<IndexData>();
   return (
     <main class="Index">
       <Header />
@@ -15,7 +15,10 @@ export default function Index(props) {
         {/** TODO this should be data.loading but that causes "Unable to find DOM nodes for hydration key" error */}
         <Match when={!data}>Loading...</Match>
         <Match when={data}>
-          <p>{data.doc}</p>
+          <For each={data.docs}>{(doc) => {
+            return <p>{doc.default}</p>
+          }}</For>
+
         </Match>
       </Switch>
     </main>
