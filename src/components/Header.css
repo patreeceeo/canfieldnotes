@@ -3,6 +3,7 @@
   position: relative;
   font-weight: lighter;
   opacity: 0.9;
+  white-space: nowrap;
 }
 .Header-hanger {
   position: absolute;

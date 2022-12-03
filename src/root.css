@@ -93,6 +93,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /* FONTS */
 
+:root {
+  font-size: 2vw;
+}
+
 h1, h2, h3, h4, h5, h6, p, a, aside {
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -132,3 +136,4 @@ h2, h3, h4, h5, h6 {
 .reset-a {
   border: none;
 }
+
