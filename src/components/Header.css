@@ -1,14 +1,11 @@
 .Header {
   font-size: 3em;
   position: relative;
+  font-weight: lighter;
+  opacity: 0.9;
 }
 .Header-hanger {
   position: absolute;
   right: 100%;
-  font-weight: normal;
-}
-.Header-normal {
-  font-weight: lighter;
-  text-transform: uppercase;
-  /* font-size: 90%; */
+  opacity: 0.5;
 }
