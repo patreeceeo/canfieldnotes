@@ -103,14 +103,9 @@ h1, h2, h3, h4, h5, h6, p, a, aside {
 
 /* SPACING */
 
-h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6, p {
   margin-bottom: 1em;
 }
-aside {
-  margin-bottom: 2em;
-}
-
-
 
 /* MISC */
 a {
