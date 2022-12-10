@@ -25,3 +25,5 @@ Thumbs.db
 
 # data
 data
+public
+!public/favicon.ico
