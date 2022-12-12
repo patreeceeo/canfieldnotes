@@ -1,0 +1,14 @@
+.Comix-row {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.Comix-panel {
+  flex-grow: 1;
+  background-color: white;
+  padding: 1vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

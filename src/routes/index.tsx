@@ -4,6 +4,8 @@ import { For, Match, Switch } from "solid-js";
 import { useRouteData } from "solid-start";
 import Page from "~/components/Page";
 import "./index.css"
+// TODO For some reason the Comix component doesn't work in mdx-js unless I import it here
+import "~/components/Comix";
 
 export const routeData = IndexDataProvider;
 
