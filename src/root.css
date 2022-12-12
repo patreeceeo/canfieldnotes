@@ -98,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
 /* FONTS */
 
 :root {
-  font-size: min(2vw, 16px);
+  font-size: min(2vw, 24px);
 }
 
 h1, h2, h3, h4, h5, h6, p, a, aside {
