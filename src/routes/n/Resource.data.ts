@@ -2,7 +2,6 @@ import { createResource } from 'solid-js';
 // TODO figure out how to use this
 // import { createRouteData } from 'solid-js';
 import { getDocFile, DocFile } from 'data/src/index';
-export { DocFile } from 'data/src/index';
 
 
 export type Meta = {
