@@ -1,20 +1,8 @@
 .Index-item {
-  border-left: 1px solid gray;
-  padding: 0 1em;
-  margin-bottom: 3em;
+  margin-bottom: 4em;
 }
-.Index-item-title {
-  font-size: 100%;
-  opacity: 0.8;
-  text-transform: uppercase;
-  margin-bottom: 1em;
-}
-.Index-item-timestamp {
-  font-weight: normal;
-  opacity: 0.8;
-}
-.Index-item-titleRow {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+
+.Index-item .Index-item-title {
+  position: relative;
+  left: -1em;
 }

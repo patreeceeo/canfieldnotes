@@ -7,6 +7,7 @@ import "./index.css"
 // TODO For some reason the Comix component doesn't work in mdx-js unless I import it here
 import "~/components/Comix";
 
+
 export const routeData = IndexDataProvider;
 
 export default function Index() {
@@ -20,7 +21,6 @@ export default function Index() {
           <For each={cleanUp(data)}>{(item) => {
             return <IndexItem {...item} />
           }}</For>
-
         </Match>
       </Switch>
     </Page>

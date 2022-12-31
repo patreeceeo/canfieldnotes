@@ -1,0 +1,38 @@
+:root {
+  font-size: 18px;
+  font-size: var(--fluid-unit);
+  font-family: "Dejavu Sans", Arial, Verdana, sans-serif;
+  line-height: 1.2em;
+}
+h1 {
+  font-size: var(--scale-6);
+}
+h2 {
+  font-size: var(--scale-5);
+}
+h3 {
+  font-size: var(--scale-4);
+}
+h4 {
+  font-size: var(--scale-3);
+}
+h5 {
+  font-size: var(--scale-2);
+}
+h6 {
+  font-size: var(--scale-1);
+}
+h1, h2, h3, h4, h5, h6 {
+  opacity: 0.5;
+  line-height: 1em;
+  letter-spacing: -0.03em;
+  font-weight: normal;
+  transform: rotate(-1.5deg);
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+

@@ -1,0 +1,27 @@
+:root {
+  --space-unit: 1em;
+}
+
+
+.fade-2-3 {
+  opacity: calc(2/3);
+}
+.fade-1-2 {
+  opacity: calc(1/2);
+}
+
+.no-br {
+  white-space: nowrap;
+}
+
+.m-1-auto {
+  margin: var(--space-unit) auto;
+}
+
+.mw-50 {
+  max-width: calc(var(--space-unit) * 50);
+}
+
+.p-1 {
+  padding: var(--space-unit);
+}

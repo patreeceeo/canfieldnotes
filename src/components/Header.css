@@ -1,12 +1,7 @@
 .Header {
-  font-size: 3em;
   position: relative;
-  font-weight: lighter;
-  opacity: 0.9;
-  white-space: nowrap;
 }
 .Header-hanger {
   position: absolute;
   right: 100%;
-  opacity: 0.5;
 }

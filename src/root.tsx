@@ -11,7 +11,13 @@ import {
   Scripts,
   Title,
 } from "solid-start";
-import "./root.css";
+import "./styles/reset.css";
+import "./styles/fluid.css";
+import "./styles/modular-scale.css";
+import "./styles/position.css";
+import "./styles/typography.css";
+import "./styles/color.css";
+import "./styles/util.css";
 
 export default function Root() {
   return (

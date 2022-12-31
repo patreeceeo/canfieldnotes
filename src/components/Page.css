@@ -1,10 +1,9 @@
 .Page {
   margin: 0 auto;
   max-width: 80vw;
-  padding: 1em;
 }
 
 .Page--withHeader {
   width: calc(100% - 9em);
-  padding: 1em 1em 1em calc(5.5em);
+  padding-left: calc(5.5em);
 }
