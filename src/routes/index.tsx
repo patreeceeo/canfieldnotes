@@ -37,7 +37,7 @@ function MaybeLink(props: IndexItemProps) {
   return props.title ? <h2 class="Index-item-title">{props.resource ? <a href={`/n/${props.resource}`}>{props.title}</a> : props.title}</h2> : <span/>
 }
 function MaybeDescription(props: IndexItemProps) {
-  return props.description ? <p>{props.description}</p> : <span/>
+  return props.description ? <section innerHTML={props.description}></section> : <span/>
 }
 function MaybeTimestamp(props: IndexItemProps) {
   return props.lastUpdate ? <p class="Index-item-timestamp">{props.lastUpdate}</p> : <span/>
