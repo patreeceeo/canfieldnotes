@@ -1,5 +1,6 @@
 body {
   --color-primary: #3db;
-  color: #154;
+  --color-text: #154;
+  color: var(--color-text);
   background-color: var(--color-primary);
 }

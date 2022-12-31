@@ -25,3 +25,7 @@
 .p-1 {
   padding: var(--space-unit);
 }
+
+.float-right {
+  float:right;
+}

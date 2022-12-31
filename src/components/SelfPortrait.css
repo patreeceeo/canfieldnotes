@@ -1,0 +1,13 @@
+.SelfPortrait {
+  --size: 7rem;
+  background-image: url('/a/self.png');
+  background-position-x: center;
+  background-position-y: 0.1rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-origin: content-box;
+  height: var(--size);
+  width: var(--size);
+  border-radius: var(--size);
+  box-shadow: 0.125rem 0.125rem white;
+}

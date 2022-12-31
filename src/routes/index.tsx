@@ -1,5 +1,6 @@
 import { cleanUp, IndexMeta, IndexDataProvider, IndexItem as IndexItemProps } from "./Index.data";
 import Header from "~/components/Header";
+import SelfPortrait from "~/components/SelfPortrait";
 import { For, Match, Switch } from "solid-js";
 import { useRouteData } from "solid-start";
 import Page from "~/components/Page";
@@ -14,6 +15,7 @@ export default function Index() {
   const {data, loading} = useRouteData<IndexMeta>();
   return (
     <Page withHeader>
+      <SelfPortrait/>
       <Header />
       <Switch fallback={"Fail..."}>
         <Match when={loading}>Loading...</Match>

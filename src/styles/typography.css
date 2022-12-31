@@ -30,6 +30,7 @@ h1, h2, h3, h4, h5, h6 {
   transform: rotate(-1.5deg);
   position: relative;
   left: -1em;
+  text-shadow: 0.125rem 0.125rem white;
 }
 
 h1, h2, h3, h4, h5, h6, p {
