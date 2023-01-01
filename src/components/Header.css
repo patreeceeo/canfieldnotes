@@ -1,5 +1,6 @@
 .Header {
   position: relative;
+  left: 0 /* override bar element style */;
 }
 .Header-hanger {
   position: absolute;
