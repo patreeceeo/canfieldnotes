@@ -18,7 +18,11 @@ import "./styles/position.css";
 import "./styles/typography.css";
 import "./styles/color.css";
 import "./styles/util.css";
+import {setPrimaryColor} from "./functions/ColorFunctions";
 
+if(globalThis.document) {
+  setTimeout(setPrimaryColor)
+}
 export default function Root() {
   return (
     <Html lang="en">

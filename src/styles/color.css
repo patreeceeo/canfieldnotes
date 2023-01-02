@@ -1,6 +1,9 @@
+:root {
+  --color-primary: #fff;
+  --color-text: rgba(0,0,0,0.8);
+}
 body {
-  --color-primary: #3db;
-  --color-text: #154;
   color: var(--color-text);
   background-color: var(--color-primary);
+  transition: background-color 0.1s linear;
 }
