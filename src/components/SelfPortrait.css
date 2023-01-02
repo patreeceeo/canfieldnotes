@@ -9,5 +9,5 @@
   height: var(--size);
   width: var(--size);
   border-radius: var(--size);
-  box-shadow: 0.125rem 0.125rem white;
+  box-shadow: 0.125rem 0.125rem var(--color-shadow);
 }

@@ -1,6 +1,7 @@
 :root {
   --color-primary: #fff;
-  --color-text: rgba(0,0,0,0.8);
+  --color-text: black;
+  --color-shadow: white;
 }
 body {
   color: var(--color-text);

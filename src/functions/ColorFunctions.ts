@@ -3,7 +3,13 @@ import {getDayOfYear} from 'date-fns'
 
 export function setPrimaryColor() {
   const now = new Date()
+  const hours = now.getHours()
   const hueValue = (((getDayOfYear(now) / 366) + 0.5) % 1) * 360
-  const color = new Color().hsl(hueValue, 80, 80)
-  document.documentElement.style.setProperty('--color-primary', color.hex())
+  const isLightOut = (hours > 6) && (hours < 18)
+  const colorPrimary = new Color().hsl(hueValue, 80, isLightOut ? 80 : 20)
+  const colorText = new Color().hsl(0, 0, isLightOut ? 0 : 100)
+  const colorShadow = new Color().hsl(0, 0, isLightOut ? 100 : 0)
+  document.documentElement.style.setProperty('--color-primary', colorPrimary.hex())
+  document.documentElement.style.setProperty('--color-text', colorText.hex())
+  document.documentElement.style.setProperty('--color-shadow', colorShadow.hex())
 }
