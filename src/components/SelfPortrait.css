@@ -11,3 +11,9 @@
   border-radius: var(--size);
   box-shadow: 0.125rem 0.125rem var(--color-shadow);
 }
+
+@media (max-width: 640px) {
+  .SelfPortrait {
+    margin-top: 4rem;
+  }
+}

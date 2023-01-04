@@ -1,9 +1,5 @@
-.Page {
-  margin: 0 auto;
-  max-width: 80vw;
-}
 
-.Page--withHeader {
-  width: calc(100% - 9em);
-  padding-left: calc(5.5em);
+.Page.Page--withHeader {
+  width: calc(100% - 5em);
+  padding-left: 3rem;
 }

@@ -22,8 +22,16 @@
   max-width: calc(var(--space-unit) * 50);
 }
 
+.mw-100 {
+  max-width: calc(var(--space-unit) * 50);
+}
+
 .p-1 {
   padding: var(--space-unit);
+}
+
+.p-0-1 {
+  padding: 0 var(--space-unit);
 }
 
 .float-right {
