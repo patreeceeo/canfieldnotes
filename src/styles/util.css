@@ -37,3 +37,12 @@
 .float-right {
   float:right;
 }
+
+.list {
+  list-style-type: circle;
+}
+
+.link {
+  opacity: 0.8;
+  text-decoration: underline;
+}
